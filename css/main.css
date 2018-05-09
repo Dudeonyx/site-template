@@ -6,37 +6,34 @@ html{
     body {
         font-size: 25px;
     }
-    header.header{
-        height: 50vh;
-    }
 }
 
 body{
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     min-height: 568px;
     min-width: 469px;
 }
 header{
-    flex: 1 100%;
+    flex: 1;
     display: flex;
     flex-flow: row wrap;
-    height: vh;
+    /* height: ; */
 }
 header div{
     flex: 1 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     background-color: rgb(12, 20, 58);
-    height: 15rem;
+    /* height: 15rem; */
     align-items: center;
     justify-content: center;
     
 }
 header div div{
-    height: auto;
+    /* height: auto; */
     display: block;
 
 }
@@ -54,7 +51,6 @@ nav{
     flex: 1 100%;
     display: flex;
     background-color: rgb(255, 122, 28);
-    height: 4rem;
     align-items: center;
     justify-content:space-between;
 }
@@ -69,8 +65,7 @@ nav{
     text-align: center;
 }
 article{
-    flex: 1 1 100%;
+    flex:2 ;
     background-image: url(../images/20170629154925-1.jpg);
     background-size: contain;
-    height: 600px;
 }
