@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-flow: column;
     min-height: 14rem;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     background-color: rgb(12, 20, 58);
     padding: 20px 0;
