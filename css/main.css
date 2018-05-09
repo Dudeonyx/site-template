@@ -1,14 +1,15 @@
-html{
-    font:normal 16px Arial;
-    background-image: linear-gradient(rgb(96, 15, 247), rgb(223, 119, 60));
+html {
+    font: normal 16px Arial;
+    background-image: linear-gradient(rgb(67, 70, 224), rgb(1, 3, 78), rgb(223, 120, 60));
 }
+
 @media (max-aspect-ratio:12/16) {
     html {
         font-size: 35px;
     }
 }
 
-body{
+body {
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
@@ -16,11 +17,12 @@ body{
     min-height: 568px;
     min-width: 469px;
 }
-header{
+
+header {
     flex: 5 auto;
     display: flex;
     flex-flow: column;
-    min-height: 14rem ;
+    min-height: 14rem;
     align-items: center;
     justify-content: center;
     background-color: rgb(12, 20, 58);
@@ -35,18 +37,22 @@ header{
     
 } */
 
-h1,h2{
+h1 {
     /* flex: 1; */
     font: normal bold 4em arial;
     text-align: center;
-    color:blanchedalmond;
+    color: blanchedalmond;
     /* height: 3rem; */
 }
-h2{
-    font-size: 2.1em;
+
+h2 {
+    text-align: center;
+    color: rgb(201, 136, 39);
+    font-size: 2em;
+    font-style: italic;
 }
 
-nav{
+nav {
     flex: 1;
     display: flex;
     background-color: rgb(255, 122, 28);
@@ -61,14 +67,16 @@ nav{
     display: flex;
     flex: 1 100%;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.navlist li{
+
+.navlist li {
     flex: 1 auto;
     text-align: center;
 }
-article{
-    flex:12;
+
+article {
+    flex: 12;
     background-image: url(../images/20170629154925-1.jpg);
     background-size: contain;
     min-height: 25rem;
