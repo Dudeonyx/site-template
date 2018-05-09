@@ -2,9 +2,9 @@ html{
     font:normal 16px Arial;
     background-image: linear-gradient(rgb(96, 15, 247), rgb(223, 119, 60));
 }
-@media (max-width:10cm) {
+@media (max-aspect-ratio:12/16) {
     html {
-        font-size: 25px;
+        font-size: 35px;
     }
 }
 
