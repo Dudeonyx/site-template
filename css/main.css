@@ -54,7 +54,7 @@ nav{
     flex: 1 100%;
     display: flex;
     background-color: rgb(255, 122, 28);
-    height: 5rem;
+    height: 4rem;
     align-items: center;
     justify-content:space-between;
 }
@@ -72,5 +72,5 @@ article{
     flex: 1 1 100%;
     background-image: url(../images/20170629154925-1.jpg);
     background-size: contain;
-    height: 650px;
+    height: 600px;
 }
