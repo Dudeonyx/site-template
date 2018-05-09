@@ -2,7 +2,7 @@ html{
     font:normal 16px Arial;
     background-image: linear-gradient(rgb(96, 15, 247), rgb(223, 119, 60));
 }
-@media (max-width:500px) {
+@media (max-width:10cm) {
     html {
         font-size: 25px;
     }
@@ -24,15 +24,16 @@ header{
     align-items: center;
     justify-content: center;
     background-color: rgb(12, 20, 58);
+    padding: 20px 0;
 }
 
-header div{
+/* header div{
     flex: 1;
     display: flex;
     flex-flow: column;
-    /* height: 15rem; */
+    height: 15rem;
     
-}
+} */
 
 h1,h2{
     /* flex: 1; */
