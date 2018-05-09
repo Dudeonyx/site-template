@@ -12,12 +12,12 @@ body{
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     min-height: 568px;
     min-width: 469px;
 }
 header{
-    flex: 1;
+    flex: 2 100%;
     display: flex;
     flex-flow: row wrap;
     /* height: ; */
@@ -32,13 +32,10 @@ header div{
     justify-content: center;
     
 }
-header div div{
-    /* height: auto; */
-    display: block;
 
-}
 h1,h2{
-    font: normal bold 3em arial;
+    flex: 3 0 0;
+    font: normal bold 4em arial;
     text-align: center;
     color:blanchedalmond;
     /* height: 3rem; */
@@ -53,6 +50,7 @@ nav{
     background-color: rgb(255, 122, 28);
     align-items: center;
     justify-content:space-between;
+    padding: 0.5em 0;
 }
 
 .navlist {
@@ -65,7 +63,8 @@ nav{
     text-align: center;
 }
 article{
-    flex:2 ;
+    flex:3 100%;
     background-image: url(../images/20170629154925-1.jpg);
     background-size: contain;
+    min-height: 21em;
 }
