@@ -48,18 +48,19 @@ nav{
     flex: 1 100%;
     display: flex;
     background-color: rgb(255, 122, 28);
-    align-items: center;
-    justify-content:space-between;
-    padding: 0.5em 0;
+    /* align-items: center; */
+    /* justify-content:center; */
+    min-height: 2.5em;
 }
 
 .navlist {
     display: flex;
     flex: 1 100%;
-    justify-content:space-between;
+    align-items: center;
+    justify-content:space-evenly;
 }
 .navlist li{
-    flex: 1;
+    flex: 1 auto;
     text-align: center;
 }
 article{
