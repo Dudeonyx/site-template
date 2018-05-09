@@ -21,15 +21,16 @@ header{
     display: flex;
     flex-flow: column;
     min-height: 14rem ;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 20, 58);
 }
+
 header div{
     flex: 1;
     display: flex;
     flex-flow: column;
-    background-color: rgb(12, 20, 58);
     /* height: 15rem; */
-    align-items: center;
-    justify-content: center;
     
 }
 
