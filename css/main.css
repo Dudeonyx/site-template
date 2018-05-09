@@ -3,7 +3,7 @@ html{
     background-image: linear-gradient(rgb(96, 15, 247), rgb(223, 119, 60));
 }
 @media (max-width:500px) {
-    body {
+    html {
         font-size: 25px;
     }
 }
@@ -17,10 +17,10 @@ body{
     min-width: 469px;
 }
 header{
-    flex: 2 100%;
+    flex: 1 100%;
     display: flex;
     flex-flow: row wrap;
-    /* height: ; */
+    min-height: 14rem ;
 }
 header div{
     flex: 1 100%;
@@ -34,7 +34,7 @@ header div{
 }
 
 h1,h2{
-    flex: 3 0 0;
+    /* flex: 1; */
     font: normal bold 4em arial;
     text-align: center;
     color:blanchedalmond;
@@ -50,7 +50,9 @@ nav{
     background-color: rgb(255, 122, 28);
     /* align-items: center; */
     /* justify-content:center; */
-    min-height: 2.5em;
+    min-height: 2.5rem;
+    font-size: 1.2rem
+    /* max-height: 2.5em; */
 }
 
 .navlist {
@@ -64,8 +66,8 @@ nav{
     text-align: center;
 }
 article{
-    flex:3 100%;
+    flex:1 100%;
     background-image: url(../images/20170629154925-1.jpg);
     background-size: contain;
-    min-height: 21em;
+    min-height: 25rem;
 }
